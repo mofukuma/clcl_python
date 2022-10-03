@@ -1,4 +1,4 @@
-﻿# clcl_python Ver 1.0　by くま
+﻿# clcl_python Ver 1.0
 
 ## About
 CLCLをPythonで拡張できるプラグインツールです。
@@ -51,7 +51,7 @@ Copyright (C) 1996-2015 by Ohno Tomoaki. All rights reserved.
 -------------------------
 
 
-# clcl_python Ver 1.0 by Kuma
+# clcl_python Ver 1.0
 
 ## About
 This is a plugin tool to extend CLCL with Python.
