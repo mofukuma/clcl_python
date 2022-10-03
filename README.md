@@ -1,7 +1,7 @@
 ﻿# clcl_python Ver 1.0
 
 ## About
-CLCLをPythonで拡張できるプラグインツールです。
+CLCL (https://github.com/nakkag/CLCL) をPythonで拡張できるプラグインツールです。
 
 Pythonが書ける人ならCLCLをコピペやクリックから何でもできるツールへ進化させます。
 
@@ -11,6 +11,7 @@ PythonだとCより文字列処理が簡単ですし、簡単にインターネ�
 - LINEで発言
 - discordに流す
 - URLの画像をサーバの保管庫に保存
+- Stable Diffusionに命令発信
 
 などなど。
 埋め込みPythonなのでパフォーマンスにも優れています。
@@ -54,7 +55,7 @@ Copyright (C) 1996-2015 by Ohno Tomoaki. All rights reserved.
 # clcl_python Ver 1.0
 
 ## About
-This is a plugin tool to extend CLCL with Python.
+This is a plugin tool to extend CLCL(https://github.com/nakkag/CLCL) with Python.
 If you can write Python, it will evolve CLCL into a tool that can do anything from copy and paste to click.
 
 Python makes string processing easier than C, and you can access the Internet easily.
@@ -64,6 +65,7 @@ You could easily do things like
 - Speak on LINE Chat
 - Send to discord
 - Store URL images in your server
+- Send order to Stable Diffusion
 
 and so on.
 Embedded Python for superior performance.
