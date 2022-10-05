@@ -59,5 +59,5 @@ def kaigyo_to_kuuhaku(input_text=""):
 
 #改行を削除
 def kaigyo_kesu(input_text=""):
-    return input_text.replace("\n", " ")
+    return input_text.replace("\n", "")
 
