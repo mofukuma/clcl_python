@@ -43,14 +43,21 @@ def deepl_translate(text, s_lang='EN', t_lang='JA'):
 # デフォルトではmainが実行される　input_textはクリップボードの中身
 def main(input_text=""):
     ret = deepl_translate(input_text, "", "JA")  #和訳
-
     return ret #CLCLへ戻す
 
     
 # 英訳したいときの関数。
 def eiyaku(input_text=""):
     ret = deepl_translate(input_text, "JA", "EN")  #英訳
-
     return ret
 
-    
+
+#改行を空白に変換
+def kaigyo_to_kuuhaku(input_text=""):
+    return input_text.replace("\n", " ")
+
+
+#改行を削除
+def kaigyo_kesu(input_text=""):
+    return input_text.replace("\n", " ")
+
